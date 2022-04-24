@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ProjectDetails from "./pages/ProjectDetails";
@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
 	return (
-		<div className="">
+		<div>
 			<main>
 				<Routes>
 					<Route path="/" element={<Navigate to="/home" />}></Route>
