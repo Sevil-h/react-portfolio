@@ -4,7 +4,6 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
 	const location = useLocation();
 	const path = location.pathname;
-	console.log(path);
 	return (
 		<nav className={path !== "/home" ? classes.notHomePage : ""}>
 			<ul>
