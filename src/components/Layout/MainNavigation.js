@@ -6,7 +6,7 @@ const MainNavigation = () => {
 		<nav className={classes.nav}>
 			<ul>
 				<li>
-					<NavLink to=""> About me</NavLink>
+					<NavLink to="/aboutme"> About me</NavLink>
 				</li>
 				<li>
 					<NavLink to="/home"> Home</NavLink>

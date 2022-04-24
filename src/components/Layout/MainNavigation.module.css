@@ -1,0 +1,13 @@
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav li {
+	color: white;
+}
