@@ -1,0 +1,90 @@
+.wrapper {
+	display: grid;
+	grid-template-rows: 3fr 0.5fr;
+	margin: 2rem auto;
+	box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100%;
+	height: 100%;
+	background-color: hsl(257, 51%, 49%);
+}
+
+.left {
+	padding: 2rem;
+}
+.right {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.techSkills {
+	background-color: #1f0a54;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 1rem;
+}
+
+.personalSkills {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 1rem;
+}
+.smallCards {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.interests {
+	background-color: #4f3396;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 1rem;
+}
+.languages {
+	background-color: #1f0a54;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	padding: 1rem;
+}
+
+.socials {
+	background-color: #3b1b8b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+.title {
+	color: #ea860b;
+	font-size: 24px;
+	letter-spacing: 2px;
+	transition: all 0.4s ease;
+}
+
+.title:hover {
+	letter-spacing: 1.2px;
+	opacity: 0.7;
+}
+
+.text {
+	text-align: center;
+	letter-spacing: 1.2px;
+	font-size: 20px;
+	opacity: 0.7;
+	font-family: "Monseratt";
+}
+
+.footer {
+	background-color: #ea860b;
+	opacity: 0.8;
+}

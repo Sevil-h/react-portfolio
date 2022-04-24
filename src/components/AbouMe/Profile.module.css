@@ -1,0 +1,32 @@
+.container {
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	filter: grayscale(0.3);
+	border: 12px solid #d36510;
+}
+
+.info {
+	text-align: center;
+}
+
+.info h2 {
+	color: #ea860b;
+}
+
+.info h3 {
+	color: #ea860b;
+}
+
+.descriiption {
+	font-family: "Monseratt";
+	font-size: 24px;
+}

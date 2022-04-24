@@ -30,7 +30,7 @@ li a {
 	transition: all 0.3s;
 	transform: scale(0.8);
 	opacity: 0.5;
-	color: white;
+	color: #fafdf6;
 	letter-spacing: 2px;
 }
 

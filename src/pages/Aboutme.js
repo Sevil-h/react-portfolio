@@ -1,7 +1,8 @@
 import React from "react";
+import Grid from "../components/UI/Grid";
 
 const Aboutme = () => {
-	return <div>About me</div>;
+	return <Grid />;
 };
 
 export default Aboutme;
