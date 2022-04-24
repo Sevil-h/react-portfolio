@@ -1,15 +1,14 @@
-.nav {
-	width: 80vw;
-	height: 5rem;
-	padding: 0 10%;
+nav {
+	width: 100%;
 	background-color: transparent;
 	position: fixed;
+	top: 0;
 	z-index: 20;
 }
 
-.nav ul {
-	width: 80vw;
-	height: 5rem;
+nav ul {
+	width: 88%;
+	height: 3.5rem;
 	list-style: none;
 	display: flex;
 	justify-content: flex-end;
@@ -18,7 +17,7 @@
 	padding: 0;
 }
 
-.nav li {
+nav li {
 	margin-left: 1.5rem;
 	font-size: 1.25rem;
 }
@@ -47,4 +46,8 @@ li a:hover {
 	opacity: 1;
 	color: #ea860b;
 	text-decoration: none;
+}
+
+.notHomePage {
+	background-color: #3b1b8b;
 }

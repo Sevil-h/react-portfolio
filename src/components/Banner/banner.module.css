@@ -3,6 +3,7 @@
 	height: 100vh;
 	position: relative;
 	font-family: inherit;
+	overflow: hidden;
 }
 
 .bigCircles {

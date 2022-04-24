@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
 	return (
-		<div>
+		<Fragment>
 			<MainNavigation />
 			<main>
 				<Routes>
@@ -23,7 +23,7 @@ function App() {
 					></Route>
 				</Routes>
 			</main>
-		</div>
+		</Fragment>
 	);
 }
 
