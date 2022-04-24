@@ -1,13 +1,50 @@
 .nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	width: 80vw;
+	height: 5rem;
+	padding: 0 10%;
+	background-color: transparent;
+	position: fixed;
+	z-index: 20;
 }
 
 .nav ul {
+	width: 80vw;
+	height: 5rem;
 	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0;
+	padding: 0;
 }
 
 .nav li {
+	margin-left: 1.5rem;
+	font-size: 1.25rem;
+}
+
+li a {
+	text-decoration: none;
+	padding: 8px;
+	overflow: hidden;
+	content: attr(alt);
+	transition: all 0.3s;
+	transform: scale(0.8);
+	opacity: 0.5;
 	color: white;
+	letter-spacing: 2px;
+}
+
+li a:hover {
+	letter-spacing: 1.2px;
+	transform: scale(1);
+	opacity: 1;
+	color: #ea860b;
+}
+.active {
+	letter-spacing: 1.2px;
+	transform: scale(1);
+	opacity: 1;
+	color: #ea860b;
+	text-decoration: none;
 }
