@@ -56,7 +56,9 @@ const HomePage = () => {
 	return (
 		<section className="container">
 			<div className={classes.profile}>
-				{/* <img className={classes.avatar} src={aboutme.profile} /> */}
+				<div>
+					<img className={classes.avatar} src={profileData.profile} />
+				</div>
 				<h1 className={classes.name}>{profileData.name}</h1>
 				<h3 className={classes.position}>{profileData.position}</h3>
 				<p className={classes.description}>{profileData.description[0]}</p>
