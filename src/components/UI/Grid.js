@@ -1,11 +1,9 @@
-import React, { useState } from "react";
 import classes from "./Grid.module.css";
 import Profile from "../AbouMe/Profile";
 import Contacts from "../AbouMe/Contacts";
 import Reference from "../AbouMe/Reference";
 
 const Grid = () => {
-	const [isShow, setIsShow] = useState(false);
 	return (
 		<div className={classes.wrapper}>
 			<div className={classes.container}>

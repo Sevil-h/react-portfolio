@@ -10,7 +10,7 @@
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-	filter: grayscale(0.3);
+	filter: grayscale(0.2);
 	border: 12px solid #d36510;
 }
 
@@ -29,4 +29,6 @@
 .descriiption {
 	font-family: "Monseratt";
 	font-size: 24px;
+	letter-spacing: 1.2px;
+	line-height: 1.2px;
 }
