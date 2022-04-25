@@ -7,11 +7,11 @@ const Reference = () => {
 			<h1>References</h1>
 			<div className={classes.cards}>
 				{profileData.references.map((ref) => (
-					<div key={ref.name} className={classes.card}>
-						<h4>{ref.name}</h4>
-						<p>{ref.subtitle}</p>
-						<p>{ref.communication}</p>
-					</div>
+					<ul key={ref.name} className={classes.card}>
+						<li>{ref.name}</li>
+						<li>{ref.subtitle}</li>
+						<li>{ref.communication}</li>
+					</ul>
 				))}
 			</div>
 		</div>

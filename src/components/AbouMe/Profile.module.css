@@ -1,9 +1,11 @@
 .container {
-	padding: 1.5rem;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .avatar {
@@ -12,6 +14,7 @@
 	border-radius: 50%;
 	filter: grayscale(0.2);
 	border: 12px solid #d36510;
+	animation: scaleAnimation 1.2s ease-in-out alternate;
 }
 
 .info {
@@ -20,10 +23,12 @@
 
 .info h2 {
 	color: #ea860b;
+	animation: scaleAnimation 1.8s ease-in-out alternate;
 }
 
 .info h3 {
 	color: #ea860b;
+	animation: scaleAnimation 1.8s ease-in-out alternate;
 }
 
 .descriiption {
@@ -31,4 +36,15 @@
 	font-size: 24px;
 	letter-spacing: 1.2px;
 	line-height: 1.2px;
+}
+
+@keyframes scaleAnimation {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
 }

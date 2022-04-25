@@ -1,9 +1,6 @@
 .container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
+	background-color: #ea860b;
+	opacity: 0.9;
 }
 
 h1 {
@@ -13,14 +10,20 @@ h1 {
 }
 
 .cards {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	padding-bottom: 1rem;
+	margin-top: -1rem;
 }
 
 .card {
-	height: 180px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 h4 {
@@ -30,5 +33,6 @@ h4 {
 	font-weight: bolder;
 }
 
-p {
+ul {
+	list-style: none;
 }
