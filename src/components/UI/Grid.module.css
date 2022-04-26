@@ -126,11 +126,11 @@
 
 @keyframes scaleAnimation {
 	0% {
-		transform: scale(0);
-		opacity: 0;
+		transform: translateX(180%);
+		opacity: 0.5;
 	}
 	100% {
-		transform: scale(1);
+		transform: transformX(360%);
 		opacity: 1;
 	}
 }
