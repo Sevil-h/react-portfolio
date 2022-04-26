@@ -9,9 +9,7 @@ function Layout(props) {
 	return (
 		<Fragment>
 			<MainNavigation />
-			<main className={path !== "/home" ? classes.main : ""}>
-				{props.children}
-			</main>
+			<main>{props.children}</main>
 		</Fragment>
 	);
 }

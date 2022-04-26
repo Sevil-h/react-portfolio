@@ -1,5 +1,6 @@
 import classes from "./banner.module.css";
 import { NavLink } from "react-router-dom";
+import Button from "../UI/Button";
 
 function Banner(props) {
 	return (
@@ -21,7 +22,7 @@ function Banner(props) {
 				<h1 className={classes.title}>{props.title}</h1>
 				<h3 className={classes.subtitle}>{props.position}</h3>
 				<NavLink to="/projects">
-					<button className={classes.button}>View Portfolio</button>
+					<Button btnName="View Portfolio" />
 				</NavLink>
 			</div>
 		</div>

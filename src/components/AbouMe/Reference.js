@@ -4,7 +4,7 @@ import classes from "./Reference.module.css";
 const Reference = () => {
 	return (
 		<div className={classes.container}>
-			<h1>References</h1>
+			<h1 className={classes.title}>References</h1>
 			<div className={classes.cards}>
 				{profileData.references.map((ref) => (
 					<ul key={ref.name} className={classes.card}>

@@ -1,4 +1,4 @@
-const timelineData = [
+const data = [
 	{
 		id: 1,
 		date: "",
@@ -177,4 +177,4 @@ const timelineData = [
 	// },
 ];
 
-export default timelineData;
+export default data;
