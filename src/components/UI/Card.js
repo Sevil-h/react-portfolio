@@ -3,7 +3,6 @@ import data from "../../store/data";
 import Button from "./Button";
 
 const Card = (props) => {
-	console.log(props);
 	return (
 		<div className={classes.cards}>
 			<div className={classes.card}>
