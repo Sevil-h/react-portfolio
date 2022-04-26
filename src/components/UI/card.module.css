@@ -1,5 +1,5 @@
 .cards {
-	padding: 2rem;
+	padding: 1rem;
 }
 
 .card {
@@ -23,13 +23,19 @@
 .text {
 	text-align: center;
 	font-family: inherit;
+	font-size: 16px;
+}
+
+.smallText {
+	font-size: 12px;
+	opacity: 0.8;
 }
 
 .right {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 2rem;
+	padding: 1rem;
 }
 
 .screen {
