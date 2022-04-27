@@ -21,7 +21,7 @@ const Card = (props) => {
 				</div>
 				<div className={classes.right}>
 					<p className={classes.text}>{props.project.descriptionShort}</p>
-					<Link to="/projects/:projectsId">
+					<Link to={`/projects/${props.project.id}`}>
 						<button className={classes.button}>View Project</button>
 					</Link>
 				</div>

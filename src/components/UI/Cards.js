@@ -44,16 +44,7 @@ const CardsContainer = () => {
 							</VerticalTimelineElement>
 						);
 					})}
-					{/* <VerticalTimelineElement>
-						{data.map((item) => (
-							<Card key={item.id} project={item} />
-						))}
-					</VerticalTimelineElement> */}
 				</VerticalTimeline>
-
-				{/* {data.map((item) => (
-					<Card key={item.id} project={item} />
-				))} */}
 			</div>
 		</div>
 	);

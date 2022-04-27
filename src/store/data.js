@@ -1,6 +1,6 @@
 const data = [
 	{
-		id: 1,
+		id: "p1",
 		date: "",
 		title: "Galata App",
 		descriptionShort:
@@ -35,7 +35,7 @@ const data = [
 		],
 	},
 	{
-		id: 2,
+		id: "p2",
 		date: "",
 		title: "BookArts",
 		descriptionShort:
@@ -61,7 +61,7 @@ const data = [
 		],
 	},
 	{
-		id: 3,
+		id: "p3",
 		date: "",
 		title: "Watch List",
 		descriptionShort:
@@ -86,7 +86,7 @@ const data = [
 		],
 	},
 	{
-		id: 4,
+		id: "p4",
 		date: "",
 		title: "Github Page",
 		descriptionShort:
@@ -105,7 +105,7 @@ const data = [
 		],
 	},
 	{
-		id: 5,
+		id: "p5",
 		title: "Portfolio",
 		descriptionShort:
 			"My first portfolio has been build by Ruby on Rails. After the Le Wagon Boothcamp",
@@ -125,7 +125,7 @@ const data = [
 		],
 	},
 	{
-		id: 6,
+		id: "p6",
 		date: "",
 		title: "React Meetups",
 		descriptionShort:
@@ -143,7 +143,7 @@ const data = [
 		],
 	},
 	{
-		id: 7,
+		id: "p7",
 		date: "",
 		title: "React Responsive Design",
 		descriptionShort:
