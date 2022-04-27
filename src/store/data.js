@@ -13,6 +13,7 @@ const data = [
 		githubLink: "https://github.com/issamok3/galata",
 		link: "https://galata-b567.herokuapp.com/",
 		images: [
+			"../assets/images/galata/1root.png",
 			"../assets/images/galata/article.png",
 			"../assets/images/galata/articles.png",
 			"../assets/images/galata/audios.png",
@@ -27,7 +28,6 @@ const data = [
 			"../assets/images/galata/messages.png",
 			"../assets/images/galata/notifications.png",
 			"../assets/images/galata/photos.png",
-			"../assets/images/galata/root.png",
 			"../assets/images/galata/settings.png",
 			"../assets/images/galata/show.png",
 			"../assets/images/galata/uploads.png",
@@ -48,6 +48,7 @@ const data = [
 		githubLink: "https://github.com/Sevil-h/BookArts",
 		link: "https://bookarts-henniver.herokuapp.com/",
 		images: [
+			"../assets/images/bookarts/1-bookarts.png",
 			"../assets/images/bookarts/bookarts-booking.png",
 			"../assets/images/bookarts/bookarts-dashboard.png",
 			"../assets/images/bookarts/bookarts-index.png",
@@ -57,7 +58,6 @@ const data = [
 			"../assets/images/bookarts/bookarts-search2.png",
 			"../assets/images/bookarts/bookarts-show.png",
 			"../assets/images/bookarts/bookarts-show2.png",
-			"../assets/images/bookarts/bookarts.png",
 		],
 	},
 	{
@@ -74,9 +74,9 @@ const data = [
 		githubLink: "https://github.com/Sevil-h/rails-watch-list",
 		link: "https://watchlist-b567.herokuapp.com//",
 		images: [
+			"../assets/images/watchlist/a1index.png",
 			"../assets/images/watchlist/addanewlist.png",
 			"../assets/images/watchlist/bookmark.png",
-			"../assets/images/watchlist/index.png",
 			"../assets/images/watchlist/index1.png",
 			"../assets/images/watchlist/index2.png",
 			"../assets/images/watchlist/info.png",

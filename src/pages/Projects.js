@@ -1,13 +1,13 @@
 import { DiReact } from "react-icons/di";
 import { DiRubyRough } from "react-icons/di";
-import CardsContainer from "../components/UI/CardsContainer";
+import Cards from "../components/UI/Cards";
 
 import React from "react";
 
 const Projects = () => {
 	return (
 		<div>
-			<CardsContainer />
+			<Cards />
 		</div>
 	);
 };

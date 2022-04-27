@@ -1,18 +1,13 @@
+import { Link } from "react-router-dom";
 import classes from "./card.module.css";
-import data from "../../store/data";
-import Button from "./Button";
 
 const Card = (props) => {
 	return (
-		<div className={classes.cards}>
+		<>
+			<h1 className={classes.title}>{props.project.title}</h1>
+
 			<div className={classes.card}>
-				<div className={classes.info}>
-					<h1 className={classes.title}>{props.project.title}</h1>
-					<p className={classes.text}>{props.project.descriptionShort}</p>
-					<p className={classes.smallText}>{props.project.programs}</p>
-					<button className={classes.button}>View Project</button>
-				</div>
-				<div className={classes.right}>
+				<div className={classes.left}>
 					<div className={classes.screen}>
 						<div className={classes.circles}>
 							<span></span>
@@ -24,8 +19,14 @@ const Card = (props) => {
 						</div>
 					</div>
 				</div>
+				<div className={classes.right}>
+					<p className={classes.text}>{props.project.descriptionShort}</p>
+					<Link to="/projects/:projectsId">
+						<button className={classes.button}>View Project</button>
+					</Link>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
