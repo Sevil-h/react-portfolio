@@ -15,7 +15,7 @@ const Card = (props) => {
 							<span></span>
 						</div>
 						<div className={classes.imgContainer}>
-							<img src={props.project.images[0]} alt="Project Screen" />
+							<img src={props.project.images[0].img} alt="Project Screen" />
 						</div>
 					</div>
 				</div>
