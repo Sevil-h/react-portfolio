@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./card.module.css";
+import { MdOutlineWebAsset } from "react-icons/md";
+import { BsGithub } from "react-icons/bs";
 
 const Card = (props) => {
 	return (
@@ -17,6 +19,14 @@ const Card = (props) => {
 						<div className={classes.imgContainer}>
 							<img src={props.project.images[0].img} alt="Project Screen" />
 						</div>
+					</div>
+					<div>
+						<a href={props.project.githubLink} target="_blank">
+							<BsGithub className={classes.icon} />
+						</a>
+						<a href={props.project.link} target="_blank">
+							<MdOutlineWebAsset className={classes.icon} />
+						</a>
 					</div>
 				</div>
 				<div className={classes.right}>

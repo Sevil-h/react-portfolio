@@ -7,7 +7,7 @@ const Slider = (props) => {
 		<div className={classes.carousel}>
 			<div className="container-fluid">
 				<div className="row justify-content-center">
-					<div className="col-6 cards">
+					<div className="col-lg-6 col-md-10 col-sm-12 cards">
 						<div className="dots">
 							<span className="dot"></span>
 							<span className="dot"></span>

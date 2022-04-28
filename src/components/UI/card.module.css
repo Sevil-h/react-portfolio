@@ -14,7 +14,24 @@
 .left {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.icon {
+	margin: 0.5rem;
+	font-size: 24px;
+	color: #3b1b8b;
+	opacity: 0.6;
+	transition: all 0.4s ease-in-out;
+}
+
+a:nth-child(2) .icon {
+	font-size: 32px;
+}
+
+.icon:hover {
+	opacity: 1;
 }
 
 .right {
@@ -126,5 +143,33 @@
 	100% {
 		transform: scale(1);
 		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.card {
+		flex-direction: column;
+		margin-top: 1rem;
+	}
+	.imgContainer {
+		width: 190px;
+		height: 160px;
+		background-color: #3b1b8b;
+		position: relative;
+	}
+
+	.screen img {
+		width: 160px;
+		height: 130px;
+		border-radius: 8px;
+		object-fit: cover;
+		position: absolute;
+		bottom: 10px;
+		left: 15px;
+	}
+	.left {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }

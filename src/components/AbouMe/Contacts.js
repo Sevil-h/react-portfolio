@@ -1,6 +1,5 @@
 import { SiLinkedin } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
-import { AiFillInstagram } from "react-icons/ai";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
 import classes from "./Contacts.module.css";

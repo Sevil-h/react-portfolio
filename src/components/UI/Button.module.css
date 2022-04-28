@@ -12,6 +12,7 @@
 	transition: all 0.8s ease;
 	font-size: 24px;
 	font-weight: 500;
+	display: inline-block;
 }
 
 .button:hover {
@@ -19,4 +20,9 @@
 	background-color: #ea860b;
 	color: #3b1b8b;
 	letter-spacing: 1px;
+}
+@media only screen and (max-width: 768px) {
+	.button {
+		font-size: 16px;
+	}
 }

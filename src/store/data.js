@@ -223,8 +223,7 @@ const data = [
 	{
 		id: "p5",
 		title: "Portfolio",
-		descriptionShort:
-			"My first portfolio has been build by Ruby on Rails. After the Le Wagon Boothcamp",
+		descriptionShort: "My first portfolio has been build by Ruby on Rails.",
 		descriptionLong:
 			"My previous portfolio page that has been build by Ruby on Rails and deployed on Heroku. It shows one business card on home page and following links behind the card. Users can see my projects that has been build during the bootcamp and detailed explanation about the ech project and links.",
 		programs: "Ruby on Rails | Ruby | Html | Css | Javascript | Heroku",

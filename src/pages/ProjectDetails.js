@@ -11,9 +11,10 @@ const ProjectsDetail = () => {
 			<h1 className="title">{project.title}</h1>
 			<Slider slides={project.images} />
 			<div className="row justify-content-center">
-				<div className="col-8">
+				<div className="col-lg-8 col-md-10 col-sm-12">
 					<div className="info">
 						<p>{project.programs}</p>
+						<p>{project.descriptionShort}</p>
 						<p>{project.descriptionLong}</p>
 						<div className="buttons">
 							<a href={project.githubLink} target="_blank">
