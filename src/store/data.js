@@ -202,7 +202,7 @@ const data = [
 			"First website of my to build by React. Two pages React website that allows user to see all public repositories from my github account with repository name, description and github link. It also allows users to favorite repository and save that repository on Starred Repo page.",
 		programs:
 			"React | Vercel | Html | Css | Javascript | Vertical-timeline-component",
-		icon: "ruby",
+		icon: "react",
 		githubLink: "https://github.com/Sevil-h/doggo-github-react-task",
 		link: "https://doggo-github-react-task-master-git-master-sevil-h.vercel.app/",
 		images: [
@@ -227,7 +227,7 @@ const data = [
 		descriptionLong:
 			"My previous portfolio page that has been build by Ruby on Rails and deployed on Heroku. It shows one business card on home page and following links behind the card. Users can see my projects that has been build during the bootcamp and detailed explanation about the ech project and links.",
 		programs: "Ruby on Rails | Ruby | Html | Css | Javascript | Heroku",
-		icon: "react",
+		icon: "ruby",
 		githubLink: "https://github.com/Sevil-h/portfolio",
 		link: "https://sevilhatipoglu.herokuapp.com/",
 		images: [
