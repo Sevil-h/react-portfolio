@@ -190,10 +190,6 @@ const data = [
 				img: "../assets/images/watchlist/info2.png",
 				text: "Movie lovers can see the rating, poster and overview about the movies that used APIs stored the information.",
 			},
-			{
-				img: "../assets/images/watchlist/info.png",
-				text: "",
-			},
 		],
 	},
 	{
@@ -246,7 +242,7 @@ const data = [
 			},
 			{
 				img: "../assets/images/portfolio/p-3.png",
-				text: "About me page",
+				text: "",
 			},
 			{
 				img: "../assets/images/portfolio/p-4.png",
@@ -258,7 +254,7 @@ const data = [
 			},
 			{
 				img: "../assets/images/portfolio/p-6.png",
-				text: "Caruosel has been built by Bootstrap.",
+				text: "",
 			},
 		],
 	},

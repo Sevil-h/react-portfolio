@@ -1,17 +1,31 @@
 import { useParams } from "react-router-dom";
-import Container from "../components/UI/Container";
-import CarouselContainer from "../components/UI/CarouselContainer";
 import data from "../store/data";
+import Slider from "../components/Carousel/Slider";
+import ButtonSmall from "../components/UI/ButtonSmall";
 
 const ProjectsDetail = () => {
 	const params = useParams();
 	const project = data.find((project) => project.id === params.projectId);
 	return (
-		<div className="ui-margin-top">
-			<Container>
-				<p>{project.title}</p>
-				<CarouselContainer images={project.images} />
-			</Container>
+		<div className="container">
+			<h1 className="title">{project.title}</h1>
+			<Slider slides={project.images} />
+			<div className="row justify-content-center">
+				<div className="col-8">
+					<div className="info">
+						<p>{project.programs}</p>
+						<p>{project.descriptionLong}</p>
+						<div className="buttons">
+							<a href={project.githubLink} target="_blank">
+								<ButtonSmall btnName="View code" />
+							</a>
+							<a href={project.link} target="_blank">
+								<ButtonSmall btnName="View project" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 };
