@@ -19,7 +19,7 @@ const Profile = () => {
 					<div>{profileData.description[1]}</div>
 				</div>
 				<div>
-					<a className={classes.cv} href={Cv}>
+					<a className={classes.cv} href={Cv} target="_blank">
 						Link to my Cv
 					</a>
 				</div>
