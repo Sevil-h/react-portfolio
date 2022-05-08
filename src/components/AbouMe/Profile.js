@@ -1,6 +1,7 @@
 import React from "react";
 import profileData from "../../store/profileData";
 import classes from "./Profile.module.css";
+import Cv from "../Pdf/Cv.pdf";
 
 const Profile = () => {
 	return (
@@ -16,6 +17,11 @@ const Profile = () => {
 				<div className={classes.description}>
 					<div>{profileData.description[0]}</div>
 					<div>{profileData.description[1]}</div>
+				</div>
+				<div>
+					<a className={classes.cv} href={Cv}>
+						Link to my Cv
+					</a>
 				</div>
 			</div>
 		</div>

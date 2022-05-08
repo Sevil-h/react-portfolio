@@ -51,3 +51,16 @@
 		opacity: 1;
 	}
 }
+
+.cv {
+	display: block;
+	opacity: 0.7;
+	margin: 0.7rem;
+	transition: all 0.4s ease-in-out;
+	font-size: 18px;
+}
+
+.cv:hover {
+	color: #ea860b;
+	opacity: 1;
+}
