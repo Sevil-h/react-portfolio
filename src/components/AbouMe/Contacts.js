@@ -13,12 +13,13 @@ const Contacts = () => {
 					<a
 						href="https://www.linkedin.com/in/sabriyesevilhatipoglu/"
 						target="_blank"
+						rel="noreferrer"
 					>
 						<SiLinkedin className={classes.icon} />
 					</a>
 				</p>
 				<p>
-					<a href="https://github.com/Sevil-h" target="_blank">
+					<a href="https://github.com/Sevil-h" target="_blank" rel="noreferrer">
 						<BsGithub className={classes.icon} />
 					</a>
 				</p>

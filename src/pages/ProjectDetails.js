@@ -17,10 +17,10 @@ const ProjectsDetail = () => {
 						<p>{project.descriptionShort}</p>
 						<p>{project.descriptionLong}</p>
 						<div className="buttons">
-							<a href={project.githubLink} target="_blank">
+							<a href={project.githubLink} target="_blank" rel="noreferrer">
 								<ButtonSmall btnName="View code" />
 							</a>
-							<a href={project.link} target="_blank">
+							<a href={project.link} target="_blank" rel="noreferrer">
 								<ButtonSmall btnName="View project" />
 							</a>
 						</div>

@@ -21,10 +21,10 @@ const Card = (props) => {
 						</div>
 					</div>
 					<div>
-						<a href={props.project.githubLink} target="_blank">
+						<a href={props.project.githubLink} target="_blank" rel="noreferrer">
 							<BsGithub className={classes.icon} />
 						</a>
-						<a href={props.project.link} target="_blank">
+						<a href={props.project.link} target="_blank" rel="noreferrer">
 							<MdOutlineWebAsset className={classes.icon} />
 						</a>
 					</div>
