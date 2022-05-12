@@ -145,6 +145,41 @@ const data = [
 		],
 	},
 	{
+		id: "p11",
+		date: "",
+		title: "React playlist",
+		descriptionShort:
+			"Small react application that fetch Spotify Api from current songs name and library and playlists.",
+		descriptionLong: "",
+		programs:
+			"React | Vercel | Css | Html | React-Router-Dom | Spotify-Web-Api-Js",
+		icon: "react",
+		githubLink: "https://github.com/Sevil-h/react-playlist",
+		link: "https://react-playlist.vercel.app/",
+		images: [
+			{
+				img: "../assets/images/spotify/spotify-1.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/spotify/spotify-2.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/spotify/spotify-3.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/spotify/spotify-4.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/spotify/spotify-5.png",
+				text: "",
+			},
+		],
+	},
+	{
 		id: "p3",
 		date: "",
 		title: "Watch List",
