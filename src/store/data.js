@@ -145,6 +145,41 @@ const data = [
 		],
 	},
 	{
+		id: "p1a",
+		date: "",
+		title: "React player",
+		descriptionShort:
+			"Small react application that fetch Spotify Api from and return small ap that you can search tracks and play and favorited or unfavorited from spotify through the react app.",
+		descriptionLong: "",
+		programs:
+			"React | Vercel | Css | Html | React-Router-Dom | Spotify-Web-Api-Js | Spotify-Web-Api-Playback | Bootstrap",
+		icon: "react",
+		githubLink: "https://github.com/Sevil-h/react-player",
+		link: "https://react-player-sevil-h.vercel.app",
+		images: [
+			{
+				img: "../assets/images/player/player5.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/player/player1.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/player/player2.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/player/player3.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/player/player4.png",
+				text: "",
+			},
+		],
+	},
+	{
 		id: "p11",
 		date: "",
 		title: "React playlist",
@@ -158,15 +193,15 @@ const data = [
 		link: "https://react-playlist.vercel.app/",
 		images: [
 			{
+				img: "../assets/images/spotify/spotify-3.png",
+				text: "",
+			},
+			{
 				img: "../assets/images/spotify/spotify-1.png",
 				text: "",
 			},
 			{
 				img: "../assets/images/spotify/spotify-2.png",
-				text: "",
-			},
-			{
-				img: "../assets/images/spotify/spotify-3.png",
 				text: "",
 			},
 			{
