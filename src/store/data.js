@@ -355,6 +355,37 @@ const data = [
 		],
 	},
 	{
+		id: "a7",
+		date: "",
+		title: "React Design",
+		descriptionShort:
+			"One page React responsive website has been build during the React learning progress.",
+		descriptionLong:
+			"One page React responsive website has been build during the React learning progress to made excersive about responsive website and styled-components.",
+		programs: "React | Vercel | Html | Css",
+		icon: "react",
+		githubLink: "https://github.com/Sevil-h/react-sofa",
+		link: "https://react-sofa.vercel.app/",
+		images: [
+			{
+				img: "../assets/images/sofa/sofa1.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/sofa/sofa2.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/sofa/sofa3.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/sofa/sofa4.png",
+				text: "",
+			},
+		],
+	},
+	{
 		id: "p7",
 		date: "",
 		title: "React Responsive Design",
