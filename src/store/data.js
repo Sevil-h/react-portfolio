@@ -355,6 +355,36 @@ const data = [
 		],
 	},
 	{
+		id: "p61",
+		date: "",
+		title: "React Flashcard Quiz",
+		descriptionShort: "One page React Flashcard Quiz",
+		descriptionLong:
+			"One page React application build by React and used axios and opentdb trivia api to generate quiz questions and answer.",
+		programs: "React | Axios | Vercel | Html | Css ",
+		icon: "react",
+		githubLink: "https://github.com/Sevil-h/react-flashcard-quiz",
+		link: "https://react-flashcard-quiz-phi.vercel.app/",
+		images: [
+			{
+				img: "../assets/images/quiz/quiz1.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/quiz/quiz2.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/quiz/quiz3.png",
+				text: "",
+			},
+			{
+				img: "../assets/images/quiz/quiz4.png",
+				text: "",
+			},
+		],
+	},
+	{
 		id: "a7",
 		date: "",
 		title: "React Design",
