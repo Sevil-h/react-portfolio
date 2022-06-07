@@ -18,6 +18,12 @@
 	flex-direction: column;
 }
 
+.icons {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
 .icon {
 	margin: 0.5rem;
 	font-size: 24px;

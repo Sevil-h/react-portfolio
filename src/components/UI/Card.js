@@ -20,7 +20,7 @@ const Card = (props) => {
 							<img src={props.project.images[0].img} alt="Project Screen" />
 						</div>
 					</div>
-					<div>
+					<div className={classes.icons}>
 						<a href={props.project.githubLink} target="_blank" rel="noreferrer">
 							<BsGithub className={classes.icon} />
 						</a>
