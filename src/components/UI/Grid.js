@@ -44,6 +44,9 @@ const Grid = () => {
 						</div>
 					</div>
 				</div>
+				<div className={classes.footer}>
+					<Reference />
+				</div>
 			</div>
 		</div>
 	);
